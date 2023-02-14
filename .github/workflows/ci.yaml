@@ -33,5 +33,5 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: docker/build-push-action@v2
         with:
-          push: false
-          tags: WellNovaes/banana:latest
+          push: true
+          tags: WellNovaes/fc3.0-ci-go:latest
