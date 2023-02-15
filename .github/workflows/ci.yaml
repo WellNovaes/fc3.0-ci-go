@@ -34,4 +34,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: WellNovaes/fc3.0-ci-go:latest
+          tags: wellnovaes/fc3.0-ci-go:latest
